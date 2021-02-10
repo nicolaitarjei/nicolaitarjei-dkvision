@@ -1,0 +1,10 @@
+// Her legges kun mixins
+// Eksempel
+
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

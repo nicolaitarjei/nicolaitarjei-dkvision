@@ -1,0 +1,22 @@
+{
+  "name": "nicolaitarjei-dkvision",
+  "version": "1.0.0",
+  "description": "new dkv site",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaitarjei/nicolaitarjei-dkvision.git"
+  },
+  "author": "nicolaitarjei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaitarjei/nicolaitarjei-dkvision/issues"
+  },
+  "homepage": "https://github.com/nicolaitarjei/nicolaitarjei-dkvision#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
