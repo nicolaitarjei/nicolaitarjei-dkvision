@@ -1,0 +1,12 @@
+.section-signup {
+    background-color: $color-grey-light-1;
+    padding-top: 30vh;
+    margin-top: -25vh;
+    -webkit-clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0 100%);
+
+    &__form {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

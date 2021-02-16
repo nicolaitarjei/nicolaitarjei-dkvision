@@ -265,6 +265,60 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.section-signup {
+  background-color: #f7f7f7;
+  padding-top: 30vh;
+  margin-top: -25vh;
+  -webkit-clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0 100%); }
+  .section-signup__form {
+    width: 80%;
+    margin: 0 auto; }
+
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9998;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s; }
+  .popup__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 60%;
+    height: 60rem;
+    background-color: #FFF;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+    transition: all .4s .2s; }
+  .popup:target {
+    opacity: 1;
+    visibility: visible; }
+  .popup:target .popup__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); }
+  .popup__close:link, .popup__close:visited {
+    color: #000;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s;
+    line-height: 1;
+    z-index: 9999; }
+  .popup__close:hover {
+    color: #7296e8; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -358,7 +412,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1500;
+  z-index: -200;
   opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
@@ -400,7 +454,8 @@ body {
 
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
-  width: 100%; }
+  width: 100%;
+  z-index: 1500; }
 
 .navigation__icon {
   position: relative;
@@ -438,8 +493,8 @@ body {
   transform: rotate(-135deg); }
 
 .section-features {
-  padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(73, 181, 244, 0.4), #469dea);
+  padding: 15rem 0 30rem 0;
+  background-image: linear-gradient(to right bottom, #49b5f4, #469dea);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
