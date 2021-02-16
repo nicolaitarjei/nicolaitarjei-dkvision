@@ -1,0 +1,39 @@
+.footer {
+    position: relative;
+    background-color: $color-grey-dark;
+    margin-bottom: -3rem;
+    width: 100%;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: $default-font-size;
+    text-decoration: none;
+    display: inline-block;
+
+    &:link,
+    &:visited {
+        color: $color-white;
+        text-decoration: none;
+
+    }
+
+
+    &__text {
+        color: $color-white;
+        text-decoration: none;
+
+    }
+
+    &__text a {
+        color: $color-primary;
+        text-decoration: none;
+    }
+
+    &::after {
+        content: "";
+        color: $color-white;
+    }
+
+    &:hover {
+        color: $color-primary-dark;
+    }
+}

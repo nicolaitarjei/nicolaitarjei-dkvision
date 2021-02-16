@@ -319,6 +319,31 @@ body {
   .popup__close:hover {
     color: #7296e8; }
 
+.footer {
+  position: relative;
+  background-color: #656565;
+  margin-bottom: -3rem;
+  width: 100%;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block; }
+  .footer:link, .footer:visited {
+    color: #FFF;
+    text-decoration: none; }
+  .footer__text {
+    color: #FFF;
+    text-decoration: none; }
+  .footer__text a {
+    color: #7296e8;
+    text-decoration: none; }
+  .footer::after {
+    content: "";
+    color: #FFF; }
+  .footer:hover {
+    color: #469dea; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
