@@ -1,0 +1,12 @@
+.contact {
+    height: 70vh;
+    background-image: linear-gradient(to right bottom,
+            rgba($color-primary-light, 0.6),
+            rgba($color-primary-dark, 0.6)),
+        url(../img/contact-background.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
+}

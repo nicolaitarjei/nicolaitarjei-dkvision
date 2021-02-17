@@ -1,0 +1,58 @@
+.product {
+    height: 40vh;
+    background-image: linear-gradient(to right bottom,
+            rgba($color-primary-light, 0.6),
+            rgba($color-primary-dark, 0.6));
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    &__header {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+.section-product {
+    height: 70vh;
+    background-color: $color-grey-light-1;
+}
+
+.product-presentation {
+    height: 90%;
+    background-color: $color-white;
+    position: relative;
+    overflow: hidden;
+    z-index: 500;
+    width: 100%;
+
+
+    &__content {
+        padding-top: 5rem;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+
+        &-1 {
+            text-align: left;
+        }
+
+        &-2 {
+            text-align: left;
+            margin-top: 2rem;
+        }
+
+        &-3 {
+            text-align: left;
+        }
+
+        &-p {
+            margin: 4rem auto;
+
+        }
+    }
+
+}
