@@ -65,6 +65,12 @@ html {
 
 body {
   box-sizing: border-box; }
+  @media (max-width: 56.25em) {
+    body {
+      padding: 0; } }
+  body ::selection {
+    background-color: #7296e8;
+    color: #FFF; }
 
 body {
   font-family: "Lato", sans-serif;
@@ -129,6 +135,9 @@ body {
 
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
+  @media (max-width: 56.25em) {
+    .u-margin-bottom-big {
+      margin-bottom: 4rem; } }
 
 .u-margin-top-big {
   margin-top: 8rem; }
@@ -227,15 +236,30 @@ body {
     z-index: 10;
     transition: all .2s;
     outline-offset: 1rem; }
+    @media (max-width: 56.25em) {
+      .composition__photo {
+        width: 48%; } }
     .composition__photo--p1 {
       left: 0;
       top: -2rem; }
+      @media (max-width: 56.25em) {
+        .composition__photo--p1 {
+          left: -13rem;
+          top: 1rem; } }
     .composition__photo--p2 {
       left: 32rem;
       top: 2rem; }
+      @media (max-width: 56.25em) {
+        .composition__photo--p2 {
+          left: 47rem;
+          top: 2rem; } }
     .composition__photo--p3 {
       left: 20%;
       top: 10rem; }
+      @media (max-width: 56.25em) {
+        .composition__photo--p3 {
+          left: 27%;
+          top: 4rem; } }
     .composition__photo:hover {
       outline: 0.5rem solid #7296e8;
       transform: scale(1.05) translateY(-0.5rem);
@@ -398,7 +422,7 @@ body {
         margin-bottom: 6rem; } }
   @media (max-width: 56.25em) {
     .row {
-      max-width: 50rem;
+      max-width: 70rem;
       padding: 0 3rem; } }
   .row::after {
     content: "";
@@ -448,6 +472,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+    @media (max-width: 56.25em) {
+      .header__text-box {
+        top: 45%; } }
 
 .navigation__checkbox {
   display: none; }
@@ -580,12 +607,19 @@ body {
     transform: skewY(7deg); }
   @media (max-width: 56.25em) {
     .section-features {
-      padding: 10rem 0; } }
+      padding: 33rem 0;
+      margin-top: 19rem;
+      margin-bottom: -30rem; } }
 
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
-  margin-top: -35vh; }
+  margin-top: -35vh;
+  margin-bottom: 10vh; }
+  @media (max-width: 56.25em) {
+    .section-about {
+      margin-top: -50vh;
+      margin-bottom: -46vh; } }
 
 .product {
   height: 40vh;
