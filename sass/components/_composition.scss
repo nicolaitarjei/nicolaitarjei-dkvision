@@ -1,8 +1,12 @@
 .composition {
     position: relative;
 
+    @include respond(tab-land) {
+        margin-top: 13rem;
+    }
+
     &__photo {
-        width: 55%;
+        width: 45%;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
         border-radius: 2px;
         position: absolute;
@@ -19,18 +23,23 @@
             top: -2rem;
 
             @include respond(tab-port) {
-                left: -13rem;
-                top: 1rem;
+                left: -4rem;
+                top: -25rem;
             }
+
         }
 
         &--p2 {
-            left: 32rem;
+            left: 28rem;
             top: 2rem;
 
+            @include respond(tab-land) {
+                left: 51%;
+            }
+
             @include respond(tab-port) {
-                left: 47rem;
-                top: 2rem;
+                left: 30rem;
+                top: -25rem;
             }
         }
 
@@ -39,9 +48,10 @@
             top: 10rem;
 
             @include respond(tab-port) {
-                left: 27%;
-                top: 4rem;
+                left: 20%;
+                top: -28rem;
             }
+
         }
 
         &:hover {

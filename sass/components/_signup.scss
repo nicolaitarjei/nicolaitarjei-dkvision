@@ -6,8 +6,15 @@
     clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0 100%);
     z-index: -500;
 
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 6vh, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 6vh, 100% 0, 100% 100%, 0 100%);
+        padding-top: 10vh;
+    }
+
     &__form {
         width: 80%;
         margin: 0 auto;
+
     }
 }

@@ -4,9 +4,8 @@
     margin-top: -35vh;
     margin-bottom: 10vh;
 
-
-    @include respond(tab-port) {
-        margin-top: -50vh;
-        margin-bottom: -46vh;
+    @include respond(tab-land) {
+        margin-top: -40vh;
     }
+
 }
