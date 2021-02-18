@@ -4,11 +4,19 @@
     background-color: $color-grey-light-1;
     margin-bottom: -45rem;
 
+    @include respond(tab-land) {
+        height: 30rem;
+    }
+
+    @include respond(phone) {
+        height: 48rem;
+    }
+
 }
 
 .slider {
     position: absolute;
-    width: 100%;
+    width: 98%;
     height: 20rem;
     overflow: hidden;
     z-index: 5000;
@@ -28,6 +36,10 @@
         &-image img {
             width: 100%;
             height: auto;
+        }
+
+        @include respond(phone) {
+            width: 200%;
         }
     }
 

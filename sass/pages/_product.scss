@@ -7,27 +7,85 @@
     background-position: top;
     position: relative;
 
+    @include respond(tab-land) {
+        height: 25vh;
+    }
+
+    @include respond(phone) {
+        height: 50%;
+    }
+
+
+
     &__header {
         position: absolute;
         top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+
     }
+
 }
 
 .section-product {
-    height: 70vh;
+    height: 100vh;
     background-color: $color-grey-light-1;
+    position: relative;
+
+    &__video {
+        height: 70%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 12rem;
+        left: 0;
+
+        @include respond(tab-land) {
+            height: 70%;
+        }
+
+        @include respond(tab-port) {
+            height: 70%;
+        }
+
+        @include respond(phone) {
+            height: 61%;
+            top: 9rem;
+        }
+
+    }
+
+    @include respond(tab-land) {
+        height: 60vh;
+        margin-bottom: -10rem;
+    }
+
+    @include respond(phone) {
+        height: 50vh;
+    }
 }
 
 .product-presentation {
-    height: 90%;
+    height: 115vh;
     background-color: $color-white;
     position: relative;
     overflow: hidden;
     z-index: 500;
     width: 100%;
+
+    @include respond(tab-land) {
+        height: 80rem;
+    }
+
+    @include respond(tab-port) {
+        height: 105rem;
+    }
+
+    @include respond(phone) {
+        height: 140rem;
+        margin-top: 3rem;
+    }
 
 
     &__content {
@@ -52,6 +110,13 @@
         &-p {
             margin: 4rem auto;
 
+            @include respond(phone) {
+                text-align: left;
+            }
+        }
+
+        @include respond(tab-port) {
+            text-align: left;
         }
     }
 

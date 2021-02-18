@@ -2,8 +2,12 @@
     max-width: $grid-width;
     margin: 0 auto;
 
+    @include respond(tab-land) {
+        max-width: 120rem;
+    }
+
     @include respond(tab-port) {
-        max-width: 50rem;
+        max-width: 85rem;
     }
 
     &:not(:last-child) {
