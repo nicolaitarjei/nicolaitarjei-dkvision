@@ -8,4 +8,8 @@
         margin-top: -40vh;
     }
 
+    @include respond(phone) {
+        padding: 25rem 2rem;
+    }
+
 }

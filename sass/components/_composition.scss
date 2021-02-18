@@ -5,6 +5,10 @@
         margin-top: 13rem;
     }
 
+    @include respond(phone) {
+        margin-top: 19rem;
+    }
+
     &__photo {
         width: 45%;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
@@ -18,6 +22,10 @@
             width: 48%;
         }
 
+        @include respond(phone) {
+            width: 40%;
+        }
+
         &--p1 {
             left: 0;
             top: -2rem;
@@ -25,6 +33,11 @@
             @include respond(tab-port) {
                 left: -4rem;
                 top: -25rem;
+            }
+
+            @include respond(phone) {
+                left: 0%;
+                top: -26rem;
             }
 
         }
@@ -41,6 +54,11 @@
                 left: 30rem;
                 top: -25rem;
             }
+
+            @include respond(phone) {
+                left: 59%;
+                top: -27rem;
+            }
         }
 
         &--p3 {
@@ -50,6 +68,11 @@
             @include respond(tab-port) {
                 left: 20%;
                 top: -28rem;
+            }
+
+            @include respond(phone) {
+                left: 33%;
+                top: -29rem;
             }
 
         }

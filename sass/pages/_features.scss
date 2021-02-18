@@ -20,7 +20,9 @@
     }
 
     @include respond(phone) {
+        margin-top: -32rem;
         transform: skewY(-3deg);
+        padding: 5rem 2rem 25rem 2rem;
 
         &>* {
             transform: skewY(3deg);
