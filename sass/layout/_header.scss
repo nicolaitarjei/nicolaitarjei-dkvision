@@ -40,8 +40,12 @@
         transform: translate(-50%, -50%);
         text-align: center;
 
+        @include respond(tab-land) {
+            top: 35%;
+        }
+
         @include respond(tab-port) {
-            top: 45%;
+            top: 35%;
         }
     }
 }

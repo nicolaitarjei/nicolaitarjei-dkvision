@@ -101,6 +101,16 @@ body {
     @media (max-width: 37.5em) {
       .heading-primary--main {
         font-size: 5rem; } }
+    .heading-primary--main--contact {
+      display: block;
+      font-size: 6rem;
+      font-weight: 400;
+      letter-spacing: 3.5rem;
+      animation: moveInLeft 1s ease-out;
+      animation-delay: 3s; }
+      @media (max-width: 37.5em) {
+        .heading-primary--main--contact {
+          font-size: 3rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -115,6 +125,20 @@ body {
         -moz-hyphens: auto;
         -ms-hyphens: auto;
         hyphens: auto; } }
+    .heading-primary--sub--contact {
+      display: block;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 1.75rem;
+      animation: moveInRight 1s ease-out;
+      animation-delay: 3s; }
+      @media (max-width: 37.5em) {
+        .heading-primary--sub--contact {
+          font-size: 1rem;
+          -webkit-hyphens: auto;
+          -moz-hyphens: auto;
+          -ms-hyphens: auto;
+          hyphens: auto; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -524,9 +548,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+    @media (max-width: 75em) {
+      .header__text-box {
+        top: 35%; } }
     @media (max-width: 56.25em) {
       .header__text-box {
-        top: 45%; } }
+        top: 35%; } }
 
 .navigation__checkbox {
   display: none; }
@@ -664,6 +691,14 @@ body {
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%); }
+  @media (max-width: 75em) {
+    .contact {
+      height: 50vh;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 62vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 62vh, 0 100%); } }
+  @media (max-width: 37.5em) {
+    .contact {
+      height: 55vh; } }
 
 .section-features {
   padding: 15rem 0 30rem 0;
