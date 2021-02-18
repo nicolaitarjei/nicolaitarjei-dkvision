@@ -15,6 +15,15 @@ body {
     backface-visibility: hidden;
     margin-bottom: 6rem;
 
+    & span {
+        @include respond(phone) {
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+        }
+    }
+
     &--main {
         display: block;
         font-size: 6rem;
@@ -25,12 +34,8 @@ body {
 
         @include respond(phone) {
             font-size: 5rem;
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
-
         }
+
     }
 
     &--sub {
