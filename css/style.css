@@ -100,7 +100,7 @@ body {
     animation-delay: 3s; }
     @media (max-width: 37.5em) {
       .heading-primary--main {
-        font-size: 5rem; } }
+        font-size: 4rem; } }
     .heading-primary--main--contact {
       display: block;
       font-size: 6rem;
