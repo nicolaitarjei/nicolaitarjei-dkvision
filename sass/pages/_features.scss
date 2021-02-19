@@ -12,11 +12,11 @@
     @include respond(tab-land) {
         margin-top: -23rem;
         padding: 15rem 2rem 20rem 2rem;
+        margin-bottom: 20rem;
     }
 
     @include respond(tab-port) {
         padding: 17rem 15rem;
-
     }
 
     @include respond(phone) {
