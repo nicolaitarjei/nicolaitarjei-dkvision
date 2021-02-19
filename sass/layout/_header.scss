@@ -31,11 +31,11 @@
     }
 
     &-product {
-        height: 110vh;
         background-image: linear-gradient(to right bottom,
                 rgba($color-primary-light, 0.6),
                 rgba($color-primary-dark, 0.6)),
             url(../img/background-produktet.jpg);
+        z-index: 500;
     }
 
     &__logo-box {

@@ -1,88 +1,61 @@
-.product {
-    height: 40vh;
-    background-image: linear-gradient(to right bottom,
-            rgba($color-primary-light, 0.6),
-            rgba($color-primary-dark, 0.6));
-    background-size: cover;
-    background-position: top;
+.product-presentation {
+    height: 115vh;
+    background-color: $color-white;
     position: relative;
+    overflow: hidden;
+    z-index: 500;
+    width: 100%;
 
     @include respond(tab-land) {
-        height: 25vh;
+        height: 80rem;
+    }
+
+    @include respond(tab-port) {
+        height: 102rem;
     }
 
     @include respond(phone) {
-        height: 55%;
+        height: 140rem;
+        margin-top: 3rem;
     }
 
-    &__header {
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+
+    &__content {
+        padding-top: 5rem;
+        width: 80%;
+        margin: auto;
         text-align: center;
 
-    }
+        &-1 {
+            text-align: left;
+        }
 
-    &-presentation {
-        height: 115vh;
-        background-color: $color-white;
-        position: relative;
-        overflow: hidden;
-        z-index: 500;
-        width: 100%;
+        &-2 {
+            text-align: left;
+            margin-top: 2rem;
+        }
 
-        @include respond(tab-land) {
-            height: 80rem;
+        &-3 {
+            text-align: left;
+        }
+
+        &-p {
+            margin: 4rem auto;
+
+            @include respond(phone) {
+                text-align: left;
+            }
         }
 
         @include respond(tab-port) {
-            height: 102rem;
+            text-align: left;
         }
-
-        @include respond(phone) {
-            height: 140rem;
-            margin-top: 3rem;
-        }
-
-
-        &__content {
-            padding-top: 5rem;
-            width: 80%;
-            margin: auto;
-            text-align: center;
-
-            &-1 {
-                text-align: left;
-            }
-
-            &-2 {
-                text-align: left;
-                margin-top: 2rem;
-            }
-
-            &-3 {
-                text-align: left;
-            }
-
-            &-p {
-                margin: 4rem auto;
-
-                @include respond(phone) {
-                    text-align: left;
-                }
-            }
-
-            @include respond(tab-port) {
-                text-align: left;
-            }
-        }
-
     }
 
 }
 
-.section-product {
+
+.product__section {
     height: 100vh;
     background-color: $color-grey-light-1;
     position: relative;

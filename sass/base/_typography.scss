@@ -38,18 +38,6 @@ body {
             font-size: 4rem;
         }
 
-        &--contact {
-            display: block;
-            font-size: 6rem;
-            font-weight: 400;
-            letter-spacing: 3.5rem;
-            animation: moveInLeft 1s ease-out;
-            animation-delay: 3s;
-
-            @include respond(phone) {
-                font-size: 3rem;
-            }
-        }
 
     }
 
@@ -69,22 +57,6 @@ body {
             hyphens: auto;
         }
 
-        &--contact {
-            display: block;
-            font-size: 2rem;
-            font-weight: 700;
-            letter-spacing: 1.75rem;
-            animation: moveInRight 1s ease-out;
-            animation-delay: 3s;
-
-            @include respond(phone) {
-                font-size: 1rem;
-                -webkit-hyphens: auto;
-                -moz-hyphens: auto;
-                -ms-hyphens: auto;
-                hyphens: auto;
-            }
-        }
     }
 }
 
