@@ -560,7 +560,8 @@ body {
         top: 35%; } }
     @media (max-width: 37.5em) {
       .header__text-box {
-        top: 44%; } }
+        top: 44%;
+        width: 90%; } }
 
 .navigation__checkbox {
   display: none; }
