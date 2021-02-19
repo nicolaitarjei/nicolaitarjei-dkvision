@@ -524,7 +524,9 @@ body {
   .row .col-3-of-4 {
     width: calc(3 *((100% - 3 * 6rem) / 4) + 2* 6rem); }
 
-.header {
+.header,
+.header-contact,
+.header-product {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(73, 181, 244, 0.6), rgba(70, 157, 234, 0.6)), url(../img/background-photo.png);
   background-size: cover;
@@ -533,33 +535,58 @@ body {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 90%);
   clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 90%); }
   @media (max-width: 75em) {
-    .header {
+    .header,
+    .header-contact,
+    .header-product {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 72%);
       clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 72%); } }
   @media (max-width: 37.5em) {
-    .header {
+    .header,
+    .header-contact,
+    .header-product {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 80%);
       clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 80%); } }
-  .header__logo-box {
+  .header-contact,
+  .header-contact-contact,
+  .header-product-contact {
+    background-image: linear-gradient(to right bottom, rgba(73, 181, 244, 0.6), rgba(70, 157, 234, 0.6)), url(../img/contact-background.jpg); }
+  .header-product,
+  .header-contact-product,
+  .header-product-product {
+    height: 110vh;
+    background-image: linear-gradient(to right bottom, rgba(73, 181, 244, 0.6), rgba(70, 157, 234, 0.6)), url(../img/background-produktet.jpg); }
+  .header__logo-box,
+  .header-contact__logo-box,
+  .header-product__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem; }
-  .header__logo {
+  .header__logo,
+  .header-contact__logo,
+  .header-product__logo {
     height: 5.5rem; }
-  .header__text-box {
+  .header__text-box,
+  .header-contact__text-box,
+  .header-product__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
     @media (max-width: 75em) {
-      .header__text-box {
+      .header__text-box,
+      .header-contact__text-box,
+      .header-product__text-box {
         top: 35%; } }
     @media (max-width: 56.25em) {
-      .header__text-box {
+      .header__text-box,
+      .header-contact__text-box,
+      .header-product__text-box {
         top: 35%; } }
     @media (max-width: 37.5em) {
-      .header__text-box {
+      .header__text-box,
+      .header-contact__text-box,
+      .header-product__text-box {
         top: 44%;
         width: 90%; } }
 
@@ -690,23 +717,6 @@ body {
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg); }
-
-.contact {
-  height: 70vh;
-  background-image: linear-gradient(to right bottom, rgba(73, 181, 244, 0.6), rgba(70, 157, 234, 0.6)), url(../img/contact-background.jpg);
-  background-size: cover;
-  background-position: top;
-  position: relative;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%); }
-  @media (max-width: 75em) {
-    .contact {
-      height: 70vh;
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 58vh);
-      clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 58vh); } }
-  @media (max-width: 37.5em) {
-    .contact {
-      height: 70vh; } }
 
 .section-features {
   padding: 15rem 0 30rem 0;

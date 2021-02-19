@@ -1,4 +1,6 @@
-.header {
+.header,
+.header-contact,
+.header-product {
     height: 95vh;
     background-image: linear-gradient(to right bottom,
             rgba($color-primary-light, 0.6),
@@ -19,6 +21,21 @@
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 80%);
         clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 80%);
 
+    }
+
+    &-contact {
+        background-image: linear-gradient(to right bottom,
+                rgba($color-primary-light, 0.6),
+                rgba($color-primary-dark, 0.6)),
+            url(../img/contact-background.jpg);
+    }
+
+    &-product {
+        height: 110vh;
+        background-image: linear-gradient(to right bottom,
+                rgba($color-primary-light, 0.6),
+                rgba($color-primary-dark, 0.6)),
+            url(../img/background-produktet.jpg);
     }
 
     &__logo-box {
@@ -51,4 +68,6 @@
             width: 90%;
         }
     }
+
+
 }
