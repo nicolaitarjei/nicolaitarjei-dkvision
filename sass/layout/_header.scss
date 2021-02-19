@@ -47,5 +47,9 @@
         @include respond(tab-port) {
             top: 35%;
         }
+
+        @include respond(phone) {
+            top: 44%;
+        }
     }
 }

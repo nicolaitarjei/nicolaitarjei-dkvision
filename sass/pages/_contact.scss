@@ -10,15 +10,16 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
 
+
     @include respond(tab-land) {
-        height: 50vh;
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 62vh, 0 100%);
-        clip-path: polygon(0 0, 100% 0, 100% 62vh, 0 100%);
+        height: 70vh;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 58vh);
+        clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 58vh);
 
     }
 
     @include respond(phone) {
-        height: 55vh;
+        height: 70vh;
     }
 
 }

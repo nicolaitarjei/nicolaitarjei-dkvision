@@ -9,7 +9,7 @@
     @include respond(tab-land) {
         -webkit-clip-path: polygon(0 25vh, 100% 17vh, 100% 100%, 0 100%);
         clip-path: polygon(0 25vh, 100% 17vh, 100% 100%, 0 100%);
-
+        margin-top: -37vh;
     }
 
     @include respond(phone) {

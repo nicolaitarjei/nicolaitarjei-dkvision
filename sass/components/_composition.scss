@@ -19,7 +19,7 @@
         outline-offset: 1rem;
 
         @include respond(tab-port) {
-            width: 48%;
+            width: 35%;
         }
 
         @include respond(phone) {
@@ -31,8 +31,8 @@
             top: -2rem;
 
             @include respond(tab-port) {
-                left: -4rem;
-                top: -25rem;
+                left: -1rem;
+                top: -21rem;
             }
 
             @include respond(phone) {
@@ -51,8 +51,8 @@
             }
 
             @include respond(tab-port) {
-                left: 30rem;
-                top: -25rem;
+                left: 57rem;
+                top: -21rem;
             }
 
             @include respond(phone) {
@@ -66,12 +66,12 @@
             top: 10rem;
 
             @include respond(tab-port) {
-                left: 20%;
-                top: -28rem;
+                left: 33%;
+                top: -21rem;
             }
 
             @include respond(phone) {
-                left: 33%;
+                left: 29%;
                 top: -29rem;
             }
 
