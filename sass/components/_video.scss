@@ -12,6 +12,10 @@
         margin-top: -35vh;
     }
 
+    @include respond(phone) {
+        height: 50rem;
+    }
+
 
     &__box {
         width: 100%;
@@ -20,6 +24,12 @@
         padding: 30rem;
         top: 15rem;
         left: -24rem;
+
+        @include respond(phone) {
+            padding: 30rem 0;
+            width: 90%;
+        }
+
     }
 
     &--video {
@@ -32,12 +42,24 @@
         @include respond(tab-land) {
             left: 24rem;
         }
+
+        @include respond(phone) {
+            top: -18%;
+            left: 72%;
+        }
     }
 
     &__text {
         position: absolute;
         top: 5rem;
         left: 57%;
+
+
+        @include respond(phone) {
+            top: 0rem;
+            left: 80%;
+            width: 100%;
+        }
     }
 
 }
