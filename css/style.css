@@ -483,7 +483,8 @@ body {
         left: 32%; } }
     @media (max-width: 37.5em) {
       .section-video__text {
-        top: 20%; } }
+        top: 25%;
+        left: 20%; } }
 
 .footer {
   position: relative;
