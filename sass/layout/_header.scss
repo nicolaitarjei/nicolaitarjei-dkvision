@@ -41,6 +41,19 @@
             height: 97rem;
             margin-bottom: -40%;
         }
+
+        @include respond(tab-port) {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 64vh, 0 77%);
+            clip-path: polygon(0 0, 100% 0, 100% 64vh, 0 77%);
+            height: 97rem;
+            margin-bottom: -50%;
+        }
+
+        @include respond(phone) {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 74%);
+            clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 74%);
+            margin-bottom: -60%;
+        }
     }
 
     &-product {

@@ -289,7 +289,7 @@ body {
           left: 51%; } }
       @media (max-width: 56.25em) {
         .composition__photo--p2 {
-          left: 57rem;
+          left: 65%;
           top: -21rem; } }
       @media (max-width: 37.5em) {
         .composition__photo--p2 {
@@ -349,7 +349,7 @@ body {
   @media (max-width: 75em) {
     .section-signup {
       -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-      clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%); } }
+      clip-path: polygon(0 10vh, 100% 0, 100% 100%, 0 100%); } }
   .section-signup__form {
     width: 80%;
     margin: 0 auto; }
@@ -413,7 +413,7 @@ body {
   width: 98%;
   height: 20rem;
   overflow: hidden;
-  z-index: 5000; }
+  z-index: 1; }
   .slider__inner {
     position: absolute;
     top: 0;
@@ -589,6 +589,21 @@ body {
         clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 79%);
         height: 97rem;
         margin-bottom: -40%; } }
+    @media (max-width: 56.25em) {
+      .header-contact,
+      .header-contact-contact,
+      .header-product-contact {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 64vh, 0 77%);
+        clip-path: polygon(0 0, 100% 0, 100% 64vh, 0 77%);
+        height: 97rem;
+        margin-bottom: -50%; } }
+    @media (max-width: 37.5em) {
+      .header-contact,
+      .header-contact-contact,
+      .header-product-contact {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 74%);
+        clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 74%);
+        margin-bottom: -60%; } }
   .header-product,
   .header-contact-product,
   .header-product-product {
