@@ -4,9 +4,6 @@
     background-color: $color-grey-light-1;
     margin-bottom: -45rem;
 
-    @include respond(tab-land) {
-        height: 40rem;
-    }
 
     @include respond(phone) {
         height: 28rem;
