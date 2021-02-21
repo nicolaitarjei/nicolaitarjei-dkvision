@@ -342,6 +342,14 @@ body {
   -webkit-clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
   z-index: -500; }
+  @media (max-width: 56.25em) {
+    .section-signup {
+      -webkit-clip-path: polygon(0 8vh, 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 8vh, 100% 0, 100% 100%, 0 100%); } }
+  @media (max-width: 75em) {
+    .section-signup {
+      -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%); } }
   .section-signup__form {
     width: 80%;
     margin: 0 auto; }
@@ -453,7 +461,7 @@ body {
         top: 15%; } }
     @media (max-width: 37.5em) {
       .section-video__box {
-        top: 20%; } }
+        top: 10%; } }
   .section-video--video {
     height: 100%;
     width: 70%;
@@ -561,7 +569,7 @@ body {
     .header-contact,
     .header-product {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 72%);
-      clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 85%);
+      clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 75%);
       margin-bottom: -30%; } }
   @media (max-width: 37.5em) {
     .header,
@@ -573,6 +581,14 @@ body {
   .header-contact-contact,
   .header-product-contact {
     background-image: linear-gradient(to right bottom, rgba(73, 181, 244, 0.6), rgba(70, 157, 234, 0.6)), url(../img/contact-background.jpg); }
+    @media (max-width: 75em) {
+      .header-contact,
+      .header-contact-contact,
+      .header-product-contact {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 79%);
+        clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 79%);
+        height: 97rem;
+        margin-bottom: -40%; } }
   .header-product,
   .header-contact-product,
   .header-product-product {

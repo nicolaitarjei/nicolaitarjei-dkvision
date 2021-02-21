@@ -19,7 +19,7 @@
 
     @include respond(tab-land) {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 72%);
-        clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 85%);
+        clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 75%);
         margin-bottom: -30%;
     }
 
@@ -34,6 +34,13 @@
                 rgba($color-primary-light, 0.6),
                 rgba($color-primary-dark, 0.6)),
             url(../img/contact-background.jpg);
+
+        @include respond(tab-land) {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 79%);
+            clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 79%);
+            height: 97rem;
+            margin-bottom: -40%;
+        }
     }
 
     &-product {
