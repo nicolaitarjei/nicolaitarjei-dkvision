@@ -6,17 +6,6 @@
     clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
     z-index: -500;
 
-    @include respond(tab-land) {
-        -webkit-clip-path: polygon(0 25vh, 100% 17vh, 100% 100%, 0 100%);
-        clip-path: polygon(0 25vh, 100% 17vh, 100% 100%, 0 100%);
-        margin-top: -37vh;
-    }
-
-    @include respond(phone) {
-        -webkit-clip-path: polygon(0 7vh, 100% 4vh, 100% 100%, 0 100%);
-        clip-path: polygon(0 7vh, 100% 4vh, 100% 100%, 0 100%);
-        padding-top: 10vh;
-    }
 
     &__form {
         width: 80%;

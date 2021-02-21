@@ -342,16 +342,6 @@ body {
   -webkit-clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
   z-index: -500; }
-  @media (max-width: 75em) {
-    .section-signup {
-      -webkit-clip-path: polygon(0 25vh, 100% 17vh, 100% 100%, 0 100%);
-      clip-path: polygon(0 25vh, 100% 17vh, 100% 100%, 0 100%);
-      margin-top: -37vh; } }
-  @media (max-width: 37.5em) {
-    .section-signup {
-      -webkit-clip-path: polygon(0 7vh, 100% 4vh, 100% 100%, 0 100%);
-      clip-path: polygon(0 7vh, 100% 4vh, 100% 100%, 0 100%);
-      padding-top: 10vh; } }
   .section-signup__form {
     width: 80%;
     margin: 0 auto; }
@@ -445,7 +435,7 @@ body {
     .section-video {
       -webkit-clip-path: polygon(0 9vh, 100% 0, 100% 100%, 0 100%);
       clip-path: polygon(0 9vh, 100% 0, 100% 100%, 0 100%);
-      margin-top: -45vh;
+      margin-top: -36vh;
       height: 85rem; } }
   @media (max-width: 56.25em) {
     .section-video {
@@ -560,12 +550,19 @@ body {
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 90%);
   clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 90%); }
-  @media (max-width: 75em) {
+  @media (max-width: 56.25em) {
     .header,
     .header-contact,
     .header-product {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 72%);
       clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 72%); } }
+  @media (max-width: 75em) {
+    .header,
+    .header-contact,
+    .header-product {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 72%);
+      clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 85%);
+      margin-bottom: -30%; } }
   @media (max-width: 37.5em) {
     .header,
     .header-contact,
