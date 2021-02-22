@@ -348,8 +348,12 @@ body {
       clip-path: polygon(0 8vh, 100% 0, 100% 100%, 0 100%); } }
   @media (max-width: 75em) {
     .section-signup {
-      -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 10vh, 100% 0, 100% 100%, 0 100%);
       clip-path: polygon(0 10vh, 100% 0, 100% 100%, 0 100%); } }
+  @media (max-width: 37.5em) {
+    .section-signup {
+      -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 5vh, 100% 0, 100% 100%, 0 100%); } }
   .section-signup__form {
     width: 80%;
     margin: 0 auto; }
