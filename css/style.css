@@ -612,7 +612,7 @@ body {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 79%);
         clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 79%);
         height: 97rem;
-        margin-bottom: -40%; } }
+        margin-bottom: -45%; } }
     @media (max-width: 56.25em) {
       .header-contact,
       .header-contact-contact,
@@ -627,7 +627,7 @@ body {
       .header-product-contact {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 74%);
         clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 74%);
-        margin-bottom: -90%; } }
+        margin-bottom: -45vh; } }
   .header-product,
   .header-contact-product,
   .header-product-product {
