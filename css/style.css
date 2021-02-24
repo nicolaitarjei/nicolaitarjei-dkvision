@@ -335,7 +335,9 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
-.section-signup {
+.section-signup,
+.section-signup-product,
+.section-signup-contact {
   background-color: #f7f7f7;
   padding-top: 25vh;
   margin-top: -30vh;
@@ -343,18 +345,36 @@ body {
   clip-path: polygon(0 21vh, 100% 0, 100% 100%, 0 100%);
   z-index: -500; }
   @media (max-width: 56.25em) {
-    .section-signup {
+    .section-signup,
+    .section-signup-product,
+    .section-signup-contact {
       -webkit-clip-path: polygon(0 8vh, 100% 0, 100% 100%, 0 100%);
       clip-path: polygon(0 8vh, 100% 0, 100% 100%, 0 100%); } }
   @media (max-width: 75em) {
-    .section-signup {
+    .section-signup,
+    .section-signup-product,
+    .section-signup-contact {
       -webkit-clip-path: polygon(0 10vh, 100% 0, 100% 100%, 0 100%);
       clip-path: polygon(0 10vh, 100% 0, 100% 100%, 0 100%); } }
   @media (max-width: 37.5em) {
-    .section-signup {
+    .section-signup,
+    .section-signup-product,
+    .section-signup-contact {
       -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 100%, 0 100%);
       clip-path: polygon(0 5vh, 100% 0, 100% 100%, 0 100%); } }
-  .section-signup__form {
+  @media (max-width: 37.5em) {
+    .section-signup-contact,
+    .section-signup-product-contact,
+    .section-signup-contact-contact {
+      padding-top: 15vh; } }
+  @media (max-width: 37.5em) {
+    .section-signup-product,
+    .section-signup-product-product,
+    .section-signup-contact-product {
+      padding-top: 15vh; } }
+  .section-signup__form,
+  .section-signup-product__form,
+  .section-signup-contact__form {
     width: 80%;
     margin: 0 auto; }
 
@@ -605,9 +625,9 @@ body {
       .header-contact,
       .header-contact-contact,
       .header-product-contact {
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 74%);
-        clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 74%);
-        margin-bottom: -60%; } }
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 74%);
+        clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 74%);
+        margin-bottom: -72%; } }
   .header-product,
   .header-contact-product,
   .header-product-product {

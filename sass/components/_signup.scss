@@ -1,4 +1,6 @@
-.section-signup {
+.section-signup,
+.section-signup-product,
+.section-signup-contact {
     background-color: $color-grey-light-1;
     padding-top: 25vh;
     margin-top: -30vh;
@@ -21,6 +23,18 @@
         clip-path: polygon(0 5vh, 100% 0, 100% 100%, 0 100%);
     }
 
+
+    &-contact {
+        @include respond(phone) {
+            padding-top: 15vh;
+        }
+    }
+
+    &-product {
+        @include respond(phone) {
+            padding-top: 15vh;
+        }
+    }
 
     &__form {
         width: 80%;
