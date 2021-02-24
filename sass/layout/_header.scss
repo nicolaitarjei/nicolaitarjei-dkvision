@@ -36,22 +36,22 @@
             url(../img/contact-background.jpg);
 
         @include respond(tab-land) {
-            -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 79%);
-            clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 79%);
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 79%);
+            clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 79%);
             height: 97rem;
             margin-bottom: -45%;
         }
 
         @include respond(tab-port) {
-            -webkit-clip-path: polygon(0 0, 100% 0, 100% 64vh, 0 77%);
-            clip-path: polygon(0 0, 100% 0, 100% 64vh, 0 77%);
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 73vh, 0 77%);
+            clip-path: polygon(0 0, 100% 0, 100% 73vh, 0 77%);
             height: 97rem;
             margin-bottom: -50%;
         }
 
         @include respond(phone) {
-            -webkit-clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 74%);
-            clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 74%);
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 73vh, 0 74%);
+            clip-path: polygon(0 0, 100% 0, 100% 73vh, 0 74%);
             margin-bottom: -45vh;
         }
     }

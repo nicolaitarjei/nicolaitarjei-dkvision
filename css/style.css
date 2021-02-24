@@ -609,24 +609,24 @@ body {
       .header-contact,
       .header-contact-contact,
       .header-product-contact {
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 79%);
-        clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 79%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 79%);
+        clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 79%);
         height: 97rem;
         margin-bottom: -45%; } }
     @media (max-width: 56.25em) {
       .header-contact,
       .header-contact-contact,
       .header-product-contact {
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 64vh, 0 77%);
-        clip-path: polygon(0 0, 100% 0, 100% 64vh, 0 77%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 73vh, 0 77%);
+        clip-path: polygon(0 0, 100% 0, 100% 73vh, 0 77%);
         height: 97rem;
         margin-bottom: -50%; } }
     @media (max-width: 37.5em) {
       .header-contact,
       .header-contact-contact,
       .header-product-contact {
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 74%);
-        clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 74%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 73vh, 0 74%);
+        clip-path: polygon(0 0, 100% 0, 100% 73vh, 0 74%);
         margin-bottom: -45vh; } }
   .header-product,
   .header-contact-product,
