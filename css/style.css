@@ -627,7 +627,7 @@ body {
       .header-product-contact {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 74%);
         clip-path: polygon(0 0, 100% 0, 100% 69vh, 0 74%);
-        margin-bottom: -72%; } }
+        margin-bottom: -90%; } }
   .header-product,
   .header-contact-product,
   .header-product-product {
