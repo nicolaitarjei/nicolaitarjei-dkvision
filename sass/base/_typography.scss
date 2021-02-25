@@ -15,16 +15,7 @@ body {
     backface-visibility: hidden;
     margin-bottom: 6rem;
 
-    & span {
-        @include respond(phone) {
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
 
-        }
-
-    }
 
     &--main {
         display: block;
@@ -34,9 +25,6 @@ body {
         animation: moveInLeft 1s ease-out;
         animation-delay: 3s;
 
-        @include respond(phone) {
-            font-size: 4rem;
-        }
 
 
     }
@@ -49,13 +37,6 @@ body {
         animation: moveInRight 1s ease-out;
         animation-delay: 3s;
 
-        @include respond(phone) {
-            font-size: 1.5rem;
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
-        }
 
     }
 }
