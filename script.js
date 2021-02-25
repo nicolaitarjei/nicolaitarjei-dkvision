@@ -46,3 +46,15 @@ function checkboundary() {
         innerSlider.style.left = `-${inner.width - outer.width}px `
     }
 }
+
+var stopVideo = function (element) {
+    var a = element.querySelector('a');
+    var iframe = element.querySelector('iframe');
+    if (a !== null) {
+        var aSrc = a.src;
+        a.src = aSrc;
+    }
+    if (iframe !== null) {
+        iframe.pause();
+    }
+};
