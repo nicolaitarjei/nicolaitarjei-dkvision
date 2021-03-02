@@ -16,7 +16,6 @@ body {
     margin-bottom: 6rem;
 
 
-
     &--main {
         display: block;
         font-size: 6rem;
@@ -25,7 +24,9 @@ body {
         animation: moveInLeft 1s ease-out;
         animation-delay: 3s;
 
-
+        @include respond(phone) {
+            font-size: 4rem;
+        }
 
     }
 
