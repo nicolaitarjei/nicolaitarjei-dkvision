@@ -458,10 +458,10 @@ body {
       height: 85rem; } }
   @media (max-width: 56.25em) {
     .section-video {
-      height: 70%; } }
+      height: 80rem; } }
   @media (max-width: 37.5em) {
     .section-video {
-      height: 70%; } }
+      height: 75rem; } }
   .section-video__box {
     position: relative;
     width: 100%;
@@ -469,10 +469,10 @@ body {
     left: 0%; }
     @media (max-width: 56.25em) {
       .section-video__box {
-        top: 15%; } }
+        top: 5rem; } }
     @media (max-width: 37.5em) {
       .section-video__box {
-        top: 10%; } }
+        top: 0%; } }
   .section-video--video {
     height: 100%;
     width: 70%;
