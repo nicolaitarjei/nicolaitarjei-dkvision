@@ -14,11 +14,11 @@
     }
 
     @include respond(tab-port) {
-        height: 70%;
+        height: 80rem;
     }
 
     @include respond(phone) {
-        height: 70%;
+        height: 75rem;
     }
 
     &__box {
@@ -28,11 +28,11 @@
         left: 0%;
 
         @include respond(tab-port) {
-            top: 15%;
+            top: 5rem;
         }
 
         @include respond(phone) {
-            top: 10%;
+            top: 0%;
         }
 
     }
